@@ -1,0 +1,124 @@
+@charset "UTF-8";
+/*variables*/
+/*fuentes*/
+/* condicional*/
+/*variables*/
+/*fuentes*/
+/* condicional*/
+p {
+  color: black; }
+
+* {
+  margin: 0px;
+  padding: 5px;
+  box-sizing: border-box; }
+
+/* html estilo */
+html {
+  text-transform: uppercase;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white; }
+  html p {
+    font-family: "Franklin Gothic Medium"; }
+  html nav {
+    font-family: "Franklin Gothic Medium"; }
+
+/* estilo de los titulos */
+.tituloPrincipal {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  background-color: #38035c; }
+
+.tituloValores {
+  text-align: center;
+  margin-top: 50px; }
+
+#tituloRequisitos {
+  text-align: center;
+  color: white;
+  background-color: #38035c; }
+
+h2, .h2--extend {
+  text-align: center;
+  color: white;
+  background-color: #38035c; }
+
+/* extend*/
+.h2--extend {
+  background-color: black; }
+
+.tituloPrincipal__animales--uppercase {
+  text-align: center;
+  background-color: #38035c;
+  color: white;
+  text-transform: uppercase; }
+
+.tituloEquipo {
+  text-align: center;
+  background-color: #38035c;
+  color: white;
+  text-transform: uppercase;
+  font-size: 20px; }
+
+.tituloDomicilio {
+  text-align: left; }
+
+.tituloSexo {
+  text-align: left; }
+
+/* estilo del footer */
+footer {
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #38035c; }
+  footer p {
+    color: white; }
+
+/*estilo formulario */
+.formulario {
+  text-transform: capitalize;
+  margin-left: 400px;
+  color: black;
+  font-family: "Franklin Gothic Medium"; }
+
+/* Pagina animales rescatados*/
+#htmlAnimales {
+  text-transform: uppercase; }
+
+.animales__lista {
+  list-style: none;
+  margin-left: 15px;
+  font-family: "Franklin Gothic Medium"; }
+
+.imagenAnimales {
+  text-align: center; }
+
+/*estilo equipo*/
+#htmlEquipo {
+  text-transform: uppercase; }
+
+.formulario__equipo {
+  font-family: "Franklin Gothic Medium"; }
+
+.botonInformacion {
+  background-color: black; }
+
+/* pagina principal*/
+.Valores {
+  margin-bottom: 50px;
+  color: black;
+  text-align: center; }
+  .Valores .valores__lista--center li {
+    display: block;
+    list-style: none;
+    font-size: 35px;
+    font-family: "Franklin Gothic Medium";
+    border: outset; }
+
+/*pagina requisitos de adopción*/
+.formulario__adopcion {
+  text-align: center;
+  margin-left: 13%;
+  font-family: "Franklin Gothic Medium"; }

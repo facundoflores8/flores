@@ -1,0 +1,9 @@
+@import './variables';
+
+p {
+    @if $color == blanco{
+        color: $colorSecundario;
+    } @else if $color == negro{
+        color: $colorTerciario;
+    }
+}

@@ -1,0 +1,171 @@
+@import './variables';
+@import './condicional';
+
+
+*{
+    margin: 0px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+/* html estilo */
+html {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: $fuentePrincipal;
+    color: $colorSecundario;
+    p {
+        font-family: $fuenteSecundaria;
+       
+    }
+    nav {
+        font-family: $fuenteSecundaria;
+        
+    }
+}
+
+/* estilo de los titulos */
+.tituloPrincipal {
+    color: $colorSecundario;
+    text-align: center;
+    font-size: 30px;
+    background-color: $colorPrincipal;
+}
+.tituloValores {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#tituloRequisitos {
+    text-align: center;
+    color: $colorSecundario;
+    background-color: $colorPrincipal;
+}
+
+h2 { 
+    text-align: center;
+    color: $colorSecundario;
+    background-color: $colorPrincipal;
+}
+
+/* extend*/
+ .h2--extend {
+    @extend h2 ;
+    background-color: $colorTerciario;
+
+    
+}
+
+
+.tituloPrincipal__animales--uppercase {
+    text-align: center;
+    background-color: $colorPrincipal;
+    color:$colorSecundario;
+    text-transform: uppercase;
+}
+
+.tituloEquipo {
+    text-align: center;
+    background-color: $colorPrincipal;
+    color: $colorSecundario;
+    text-transform: uppercase;    
+    font-size: 20px;
+}
+
+.tituloDomicilio {
+    text-align: left;
+}
+
+.tituloSexo {
+    text-align: left;
+}
+
+/* estilo del footer */
+ 
+footer {
+    text-transform: uppercase;
+    text-align: center;
+    background-color: $colorPrincipal;
+    
+    p {
+        color:  $colorSecundario;
+    }
+
+}
+
+/*estilo formulario */
+
+.formulario {
+    text-transform: capitalize;
+    margin-left: 400px;
+    color: black;
+    font-family: $fuenteSecundaria;
+    
+}
+
+/* Pagina animales rescatados*/
+
+#htmlAnimales {
+       text-transform: uppercase;
+}
+
+.animales__lista {
+    list-style: none;
+    margin-left: 15px;
+    font-family: $fuenteSecundaria;
+}
+.imagenAnimales {
+    text-align: center;
+}
+ 
+
+
+/*estilo equipo*/
+
+#htmlEquipo {
+  text-transform: uppercase;
+  
+}
+.formulario__equipo {
+    font-family: $fuenteSecundaria;
+}
+
+.botonInformacion {
+    background-color: black;
+}
+
+ /* pagina principal*/
+.Valores {
+    margin-bottom: 50px;    
+    color: $colorTerciario;
+    text-align: center;
+
+   
+    
+    
+    .valores__lista--center {
+        li {      
+                       
+            display: block;
+            list-style: none;
+            font-size: 35px;
+            font-family: $fuenteSecundaria;
+            border: outset;
+            
+        }
+        
+    }
+}
+
+
+
+/*pagina requisitos de adopción*/
+
+.formulario__adopcion {
+    text-align: center;
+    margin-left: 13%;
+    font-family: $fuenteSecundaria;
+}
+
+
+
