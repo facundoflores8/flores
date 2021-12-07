@@ -122,3 +122,7 @@ footer {
   text-align: center;
   margin-left: 13%;
   font-family: "Franklin Gothic Medium"; }
+
+/* estilo video*/
+.video_principal {
+  overflow: hidden; }
