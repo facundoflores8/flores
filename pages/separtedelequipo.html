@@ -13,59 +13,57 @@
 </head>
 <body> 
     
-    <header>
-           <div class="conteiner-fluid tituloEquipo">
-            <!--tituloPrincipal-->
-            <h1 class="animate__bounceIn">se parte del equipo</h1>
-            </div>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <!--menu-->
-                <div class="container-fluid">
-                  <a class="navbar-brand" href="../index.html">inicio refugio violeta</a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                      <a class="nav-link active" aria-current="page" href="animalesrescatados.html">animales rescatados</a>
-                      <a class="nav-link" href="requisitosdeadopcion.html">requisitos de adopcion</a>
-                      
-                    </div>
-                  </div>
-                </div>
-              </nav>
-            
-   </header>
-   
-   
-   <main>
-      <div class="container">
+  <header>
+    <div class="nav__principal  ">
+      <ul class="nav justify-content-center ">
+           <li class="nav-item">
+               <a class="nav-link active color__link" aria-current="page" href="../index.html">Inicio Refugio Violeta</a>
+           </li>
+          <li class="nav-item">
+               <a class="nav-link color__link" href="../pages/requisitosdeadopcion.html">requisitos de adopción</a>
+          </li>
+          <li class="nav-item">
+               <a class="nav-link color__link" href="../pages/animalesrescatados.html">Animales Rescatados</a>
+          </li>
+      
+      </ul>
+    </div>
 
-            <div class="row">
+    <div class="tituloPrincipal">
+      <!--tituloPrincipal-->
+      <h1 class="animate__bounceIn cuno col-lg-12 ">SE PARTE DEL EQUIPO</h1>
+    </div>
+     <img src="../imagenes/fondogatos.jpg" alt="imagengato" class="img-fluid">
+          
+  </header>
+   
+   
+   <main class="conteiner">   
+     
+            <div class="row">          
            
-           
-                <div class="col-lg-4 col-sm-6">
-                <!--fundadores-->
-                <h2 class="h2Equipo">fundadores</h2>
-                <img src="../imagenes/creadores.jpg" class="img-thumbnail" alt="imagenFundadores">
+                   <div class="col-lg-4 col-sm-6 text-center">
+                           <!--fundadores-->
+                       <h2 class="h2Equipo">fundadores</h2>
+                      <img src="../imagenes/creadores.jpg" class="img-thumbnail rounded" alt="imagenFundadores">
       
                      <p>
                       Raúl y Cecilia: fueron los creadores del refugio, los cuales se motivaron en su gata llamada violeta que desde el 2011 la encontraron abandonada con apenas 45 días de vida aproximadamente en un baldío y desde ese momento, supieron que tendrían un refugio para gatos.
                     </p>
-               </div>
+                  </div>
                
-                  <div class="col-lg-4 col-sm-6">
-                        <!--franco-->
+                  <div class="col-lg-4 col-sm-6 text-center">
+                            <!--franco-->
                      <h2 class="h2Equipo">coordinador</h2> 
-                     <img src="../imagenes/franco.jpg" class="img-thumbnail" alt="imagenFranco">
-                    <p>
-                      franco: se unió al refugio como voluntario actualmente se desarrolla como coordinador del mismo, desde el año 2016 y el cual lo realiza con mucha dedicación y cariño. Es uno de los pilares del refugio ya que por su trabajo el refugio logra tener una gran eficiencia al momento de rescatar y dar en adopción a nuestros felinos.
-                  </p>
-                   </div>
-                   <div class="col-lg-4 col-sm-12">
+                     <img src="../imagenes/franco.jpg" class="img-thumbnail rounded" alt="imagenFranco">
+                        <p>
+                             franco: se unió al refugio como voluntario actualmente se desarrolla como coordinador del mismo, desde el año 2016 y el cual lo realiza con mucha dedicación y cariño. Es uno de los pilares del refugio ya que por su trabajo el refugio logra tener una gran eficiencia al momento de rescatar y dar en adopción a nuestros felinos.
+                        </p>
+                  </div>
+                   <div class="col-lg-4 col-sm-12 text-center">
                        <!--tamara-->
                        <h2 class="h2Equipo">rescatista</h2>
-                        <img src="../imagenes/tamara.jpg" class="img-thumbnail" alt="imagenTamara">
+                        <img src="../imagenes/tamara.jpg" class="img-thumbnail rounded" alt="imagenTamara">
              
                          <p>
                           Tamara: es parte del refugio desde su creación, y su rol es muy importante en el mismo ya que consiste en buscar y recibir los diferentes llamados y solicitudes de rescate para que sea de manera rápida y eficiente ya que en muchos casos los animales no se encuentran en las mejores condiciones posibles de salud.
@@ -74,10 +72,10 @@
        
             </div> 
             <div class="row">
-              <div class="col-lg-3 col-sm-12">
+              <div class="col-lg-3 col-sm-12 text-center">
                         <!--leandro-->
                      <h2 class="h2Equipo" >cuidador</h2>                                           
-                     <img src="../imagenes/leandro.jpg" class="img-thumbnail" alt="imagenLeandro">
+                     <img src="../imagenes/leandro.jpg" class="img-thumbnail rounded" alt="imagenLeandro">
                           <p>
                             Leandro: se unió al refugio desde el 2014 y se desempeña como el cuidador de nuestros felinos, es muy bueno en su trabajo ya que está constantemente atento a lo que ellos necesiten y siempre muy predispuesto.
                           </p>
@@ -108,7 +106,7 @@
                         </div>
                         <div class="col-12">
                           <label for="inputAddress" class="form-label">dirección</label>
-                          <input type="text" class="form-control" id="inputAddress" placeholder="calle, número,partido,etc">
+                          <input type="text" class="form-control" id="inputAddress" placeholder="calle, número, partido, etc">
                         </div>
                         <div class="col-12">
                           <label for="inputAddress2" class="form-label">motivo</label>
@@ -129,7 +127,7 @@
                           <div class="form-check">
                             <input class="form-check-input" type="checkbox" id="gridCheck">
                             <label class="form-check-label" for="gridCheck">
-                              acepto terminos y condiciones
+                              acepto términos y condiciones
                             </label>
                           </div>
                         </div>
@@ -138,10 +136,10 @@
                         </div>
                       </form>
                    </div>
-                   <div class="col-lg-3 col-sm-12">
+                   <div class="col-lg-3 col-sm-12  text-center">
                          <!--karen-->
                           <h2 class="h2Equipo">enfermera</h2>
-                          <img src="../imagenes/karen.jpg" class="img-thumbnail" alt="imagenKaren">
+                          <img src="../imagenes/karen.jpg" class="img-thumbnail rounded " alt="imagenKaren">
                          
                             <p>
                               Karen: es nuestra enfermera que se unió a nuestro refugio recientemente, es una gran profesional ya que les brinda mucho cuidado y una gran salud a nuestros felinos.
@@ -151,7 +149,7 @@
                   </div>
             </div>
                  
-        </div>
+        
                   
            <footer>
                   <!--footer-->
